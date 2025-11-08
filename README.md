@@ -20,7 +20,7 @@ How to run
 
 Batch (with vortices, vorticity panel + quiver):
 
-python model_g_2d_xy_vortical_plus__2b.py \
+python3 model_g_2d_xy_vortical_plus__2b.py \
   --nx 192 --ny 192 --Lx 60 --Ly 60 \
   --Tfinal 8 --dt 0.005 --segment_dt 0.5 --zlim 1.0 \
   --alphaG 0.02 --alphaX 0.02 --alphaY 0.02 --cs2 1.0 --nu 0.25 \
