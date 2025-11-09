@@ -15,14 +15,14 @@ Install:
   pip install numpy scipy matplotlib imageio imageio[ffmpeg]
 
 Batch:
-  python model_g_2d_xy_vortical_plus__2b.py --nx 192 --ny 192 --Lx 60 --Ly 60 \
+  python3 model_g_2d_xy_vortical_plus__2b.py --nx 192 --ny 192 --Lx 60 --Ly 60 \
       --Tfinal 8 --dt 0.005 --segment_dt 0.5 --zlim 1.0 \
       --alphaG 0.02 --alphaX 0.02 --alphaY 0.02 --cs2 1.0 --nu 0.25 \
       --rotseed --swirl_amp 1.0 --swirl_sigma 6.0 --swirl_cx 30 --swirl_cy 30 \
       --vort_panel --quiver --quiver_stride 8
 
 Live (needs interactive backend; e.g., MPLBACKEND=TkAgg):
-  MPLBACKEND=TkAgg python model_g_2d_xy_vortical_plus__2b.py --live --rotseed --vort_panel --quiver
+  MPLBACKEND=TkAgg python3 model_g_2d_xy_vortical_plus__2b.py --live --rotseed --vort_panel --quiver
 """
 import os
 import time
