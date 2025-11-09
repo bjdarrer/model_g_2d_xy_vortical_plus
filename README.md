@@ -45,5 +45,4 @@ For stronger vortex rings, bump --swirl_amp and/or reduce --swirl_sigma; move th
 Outputs: out_model_g_2d_xy_vortical_plus/frames/, .../final_snapshot.png, .../checkpoint_vortical_plus.npz, and .../model_g_2d_xy_vortical_plus.mp4.
 
 If you hit anything odd, tell me the error text and the exact command you ran, and I’ll patch it right away. Want me to port the same
-
 vorticity panel + quiver options back into your non-fluid 2D solver too, so you can compare “with vs without flow” side-by-side?
