@@ -1,6 +1,6 @@
 ChatGPT:
 
-I added a new ready-to-run script, model_g_2d_xy_vortical_plus.py, with everything you asked for:
+I added a new ready-to-run script, model_g_2d_xy_vortical_plus__2b.py, with everything you asked for:
 
 New features
 
