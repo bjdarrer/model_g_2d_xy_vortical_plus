@@ -30,7 +30,7 @@ python3 model_g_2d_xy_vortical_plus__2b.py \
 
 Live viewer (needs interactive backend; install one if needed: sudo apt install python3-tk or set MPLBACKEND=TkAgg):
 
-MPLBACKEND=TkAgg python model_g_2d_xy_vortical_plus__2b.py --live --rotseed --vort_panel --quiver
+MPLBACKEND=TkAgg python3 model_g_2d_xy_vortical_plus__2b.py --live --rotseed --vort_panel --quiver
 
 Notes & tips
 
